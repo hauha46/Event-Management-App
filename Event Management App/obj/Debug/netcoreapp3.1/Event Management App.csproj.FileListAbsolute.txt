@@ -1,0 +1,74 @@
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\EventApp.Business.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\EventApp.DataAccess.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\EventApp.Entity.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\EventApp.Interface.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\Event Management App.csprojAssemblyReference.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\Event Management App.AssemblyInfoInputs.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\Event Management App.AssemblyInfo.cs
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\Event Management App.RazorTargetAssemblyInfo.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Event Management App.exe
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Event Management App.deps.json
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Event Management App.runtimeconfig.json
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Event Management App.runtimeconfig.dev.json
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Event Management App.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Event Management App.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\EventApp.Business.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\EventApp.Entity.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\EventApp.DataAccess.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\EventApp.Interface.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\Event Management App.csproj.CopyComplete
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\staticwebassets\Event Management App.StaticWebAssets.Manifest.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\staticwebassets\Event Management App.StaticWebAssets.xml
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\Event Management App.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\Event Management App.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\Event Management App.genruntimeconfig.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\Event Management App.csproj.CoreCompileInputs.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\Event Management App.MvcApplicationPartsAssemblyInfo.cs
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\Event Management App\obj\Debug\netcoreapp3.1\Event Management App.MvcApplicationPartsAssemblyInfo.cache

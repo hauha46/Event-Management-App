@@ -1,0 +1,14 @@
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\bin\Debug\netcoreapp3.1\EventApp.Business.deps.json
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\bin\Debug\netcoreapp3.1\EventApp.Business.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\bin\Debug\netcoreapp3.1\EventApp.Business.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\bin\Debug\netcoreapp3.1\EventApp.DataAccess.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\bin\Debug\netcoreapp3.1\EventApp.Entity.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\bin\Debug\netcoreapp3.1\EventApp.Entity.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\bin\Debug\netcoreapp3.1\EventApp.DataAccess.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\obj\Debug\netcoreapp3.1\EventApp.Business.csprojAssemblyReference.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\obj\Debug\netcoreapp3.1\EventApp.Business.AssemblyInfoInputs.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\obj\Debug\netcoreapp3.1\EventApp.Business.AssemblyInfo.cs
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\obj\Debug\netcoreapp3.1\EventApp.Business.csproj.CoreCompileInputs.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\obj\Debug\netcoreapp3.1\EventApp.Business.csproj.CopyComplete
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\obj\Debug\netcoreapp3.1\EventApp.Business.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Business\obj\Debug\netcoreapp3.1\EventApp.Business.pdb

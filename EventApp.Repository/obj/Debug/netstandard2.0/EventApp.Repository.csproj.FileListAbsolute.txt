@@ -1,0 +1,4 @@
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netstandard2.0\EventApp.Entity.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netstandard2.0\EventApp.Interface.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netstandard2.0\EventApp.Repository.AssemblyInfoInputs.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netstandard2.0\EventApp.Repository.AssemblyInfo.cs

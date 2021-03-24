@@ -1,0 +1,14 @@
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netstandard2.0\EventApp.DataAccess.deps.json
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netstandard2.0\EventApp.DataAccess.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netstandard2.0\EventApp.DataAccess.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netstandard2.0\EventApp.Entity.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netstandard2.0\EventApp.Interface.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netstandard2.0\EventApp.Entity.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netstandard2.0\EventApp.Interface.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netstandard2.0\EventApp.DataAccess.csprojAssemblyReference.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netstandard2.0\EventApp.DataAccess.AssemblyInfoInputs.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netstandard2.0\EventApp.DataAccess.AssemblyInfo.cs
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netstandard2.0\EventApp.DataAccess.csproj.CopyComplete
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netstandard2.0\EventApp.DataAccess.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netstandard2.0\EventApp.DataAccess.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netstandard2.0\EventApp.DataAccess.csproj.CoreCompileInputs.cache

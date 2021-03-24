@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EventApp.API</name>
+    </assembly>
+    <members>
+        <member name="M:Event_Management_App.Controllers.EnrolledEventController.AddEnrollment(EventApp.Entity.EnrolledEvent)">
+            <summary>
+            The endpoint add a new enrollment into the database based on the given information
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.EnrolledEventController.GetEnrollment(System.Int32)">
+            <summary>
+            The endpoint finds the enrollment based on the given userId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.EnrolledEventController.DeleteEnrollment(System.Int32,System.Int32)">
+            <summary>
+            The endpoint deletes the enrollment based on the given information
+            </summary>
+            <param name="userId"></param>
+            <param name="eventId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.EventController.GetAll">
+            <summary>
+            The function finds all available events
+            </summary>
+            <returns>The function returns all available events</returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.EventController.GetAllWithUser(System.Int32)">
+            <summary>
+            The endpoint finds all events specialize for a particular user based on the given id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.EventController.GetEvent(System.Int32)">
+            <summary>
+            The endpoint finds the event based on the given id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.EventController.AddEvent(EventApp.Entity.Event)">
+            <summary>
+            The endpoint saves a new registered event into the database based on the given information
+            </summary>
+            <param name="entity">Given a event</param>
+            <returns>The function returns the id of saved event</returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.EventController.UpdateEvent(EventApp.Entity.Event)">
+            <summary>
+            The endpoint updates the information of an event based on the given information
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.EventController.DeleteEvent(System.Int32)">
+            <summary>
+            The endpoint deletes an event based on the given id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.UserController.GetAll(System.String,System.Int32,System.Int32)">
+            <summary>
+            The endpoint finds the list of users based on given search query, page and item count
+            </summary>
+            <param name="query"></param>
+            <param name="page"></param>
+            <param name="itemCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.UserController.GetAllWithoutQuery(System.Int32,System.Int32)">
+            <summary>
+            The endpoint finds the list of the users based on the given page and item count
+            </summary>
+            <param name="page"></param>
+            <param name="itemCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.UserController.GetUser(System.Int32)">
+            <summary>
+            The endpoint finds the user based on the given id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.UserController.CheckUser(System.String)">
+            <summary>
+            The endpoint checks whether the given username is existed or not
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.UserController.AddUser(EventApp.Entity.User)">
+            <summary>
+            The endpoint saves a new registered user into the database based on the given information
+            </summary>
+            <param name="user">Given a user</param>
+            <returns>The function returns the id of saved user</returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.UserController.Authenticate(EventApp.Entity.ViewModel.AuthenticateRequest)">
+            <summary>
+            The endpoint authenticates the credential of a user
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.UserController.ChangePassword(EventApp.Entity.ViewModel.Password)">
+            <summary>
+            The endpoint updates password of a user based on the given information
+            </summary>
+            <param name="passwords"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Event_Management_App.Controllers.UserController.UpdateUser(EventApp.Entity.User)">
+            <summary>
+            The endpoint updates info of a user based on the given information
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netcoreapp3.1\EventApp.DataAccess.deps.json
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netcoreapp3.1\EventApp.DataAccess.runtimeconfig.json
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netcoreapp3.1\EventApp.DataAccess.runtimeconfig.dev.json
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netcoreapp3.1\EventApp.DataAccess.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netcoreapp3.1\EventApp.DataAccess.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netcoreapp3.1\EventApp.Entity.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\bin\Debug\netcoreapp3.1\EventApp.Entity.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netcoreapp3.1\EventApp.DataAccess.csprojAssemblyReference.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netcoreapp3.1\EventApp.DataAccess.AssemblyInfoInputs.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netcoreapp3.1\EventApp.DataAccess.AssemblyInfo.cs
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netcoreapp3.1\EventApp.DataAccess.csproj.CopyComplete
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netcoreapp3.1\EventApp.DataAccess.dll
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netcoreapp3.1\EventApp.DataAccess.pdb
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netcoreapp3.1\EventApp.DataAccess.genruntimeconfig.cache
+D:\Summer 2020\Beaconfire\Training\Week 8\Event App\Event Management App\EventApp.Repository\obj\Debug\netcoreapp3.1\EventApp.DataAccess.csproj.CoreCompileInputs.cache
