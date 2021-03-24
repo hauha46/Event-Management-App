@@ -1,0 +1,55 @@
+<h2 class="text-center">Create an Event</h2>
+<hr/>
+<div class="container">
+    <form (ngSubmit)="onSubmit()" [formGroup] = "eventForm">
+        <fieldset>
+            <div class="form-group">
+                <label class="form-control-label" >Title <span class="lblError">*</span></label>
+                <input required type="text" formControlName="title" name = "title" class="form-control "/>
+            </div>
+            <div class="alert alert-danger" *ngIf="eventForm.get('title').hasError('required') && !eventForm.get('title').pristine">
+                Please provide event title.
+            </div>
+    
+            <div class="form-group">
+                <label class="form-control-label" >Short Description <span class="lblError">*</span></label>
+                <input required type="text" formControlName="shortDescription" name = "shortDescription" class="form-control "/>
+            </div>
+            <div class="alert alert-danger" *ngIf="eventForm.get('shortDescription').hasError('required') && !eventForm.get('shortDescription').pristine">
+                Please provide event description.
+            </div>
+    
+            <div class="form-group">
+                <label class="form-control-label">Long Description</label>
+                <textarea required type="text" formControlName="longDescription" name = "longDescription" class="form-control" rows="3"></textarea>
+            </div>
+    
+            
+            <div class="form-group">
+                <label class="form-control-label">Published Date <span class="lblError">*</span></label>
+                <input required type="date" formControlName="publishedDate" name = "publishedDate" class="form-control "/>
+            </div>
+            
+            <div class="form-group">
+                <label class="form-control-label">Is the event published? <span class="lblError">*</span></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="isActive"  formControlName="isActive" id="isActiveTrue" value="true">
+                    <label class="form-check-label" for="isPublishedTrue">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="isActive" formControlName="isActive" id="isActiveFalse" value="false">
+                    <label class="form-check-label" for="isPublishedFalse">
+                        No
+                    </label>
+                </div>
+            </div>
+    
+            <div class="form-group text-center">
+                <button type="button"  class="btn btn-secondary" (click)="onCancel()">Cancel</button>&nbsp;&nbsp;
+                <button type="submit"  class="btn btn-primary">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</div>

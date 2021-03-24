@@ -1,0 +1,44 @@
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Event Manager App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" routerLink="events" routerLinkActive="active" >Events</a>
+            </li>
+            
+            
+            <li class="nav-item active" *ngIf="isAuthenticated">
+              <a class="nav-link" routerLink="user/{{userId}}" routerLinkActive="active" >Your Profile</a>
+            </li>
+            <li class="nav-item active" *ngIf="isAuthenticated">
+              <a class="nav-link" routerLink="user/{{userId}}/events" routerLinkActive="active" >Enrolled Events</a>
+            </li>
+            <li class="nav-item active" *ngIf = "isAdmin">
+              <a class="nav-link" routerLink="users" routerLinkActive="active" >All Users</a>
+            </li>
+            <li class="nav-item active" *ngIf = "isAdmin">
+              <a class="nav-link" routerLink="create/event" routerLinkActive="active" >Create Event</a>
+            </li>
+          </ul>
+        </div>
+        <div class="float-right ">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active" *ngIf="!isAuthenticated">
+              <a class="nav-link" routerLink="login" routerLinkActive="active" >Login</a>
+            </li>
+            <li class="nav-item active" *ngIf="!isAuthenticated">
+              <a class="nav-link" routerLink="signup" routerLinkActive="active" >Sign up</a>
+            </li>
+            <li class="nav-item active" *ngIf="isAuthenticated">
+              <a style="cursor:pointer" class="nav-link text-white" (click)="signOut()"  >Logout</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    
+</div>

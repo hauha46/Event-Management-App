@@ -1,0 +1,47 @@
+<h2 class="text-center">Edit User Information</h2>
+<hr/>
+<div class="container">
+    <form (ngSubmit)="onSubmit()" [formGroup] = "userForm">
+        <fieldset>
+            <legend>Edit Info</legend>
+    
+            <div class="row">
+                <div class="form-group col">
+                    <label class="form-control-label">First Name <span class="lblError">*</span></label>
+                    <input required type="text" formControlName="firstName" name = "firstName" class="form-control "/>
+                </div>
+                <div class="form-group col">
+                    <label class="form-control-label">Last Name </label>
+                    <input required type="text" formControlName="lastName" name = "lastName" class="form-control "/>
+                </div>
+            </div>
+            
+            <div class="alert alert-danger" *ngIf="userForm.get('firstName').hasError('required') && !userForm.get('firstName').pristine">
+                Please provide your First Name.
+            </div>
+    
+            <div class="form-group">
+                <label class="form-control-label">Email <span class="lblError">*</span></label>
+                <input required type="email" formControlName="email" name = "email" class="form-control "/>
+            </div>
+            <div>
+                <div class="alert alert-danger" *ngIf="userForm.get('email').hasError('required') && !userForm.get('email').pristine">
+                    Please provide your Email.
+                </div>
+                <div class="alert alert-danger" *ngIf="userForm.get('email').hasError('email') && !userForm.get('email').pristine">
+                    Please check your Email again!
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <label class="form-control-label">Mobile</label>
+                <input required type="text" formControlName="mobile" name = "mobile" class="form-control "/>
+            </div>
+            
+            <div class="form-group text-center">
+                <button type="button"  class="btn btn-secondary" (click)="onCancel()">Cancel</button>&nbsp;&nbsp;
+                <button type="submit"  class="btn btn-primary">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</div>

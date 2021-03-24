@@ -1,0 +1,14 @@
+<h2 class="text-center">Event Information</h2>
+<hr/>
+<div class="text-center" *ngIf="event">
+    <h5 class="font-weight-bold">Title: <span class="font-weight-light">{{event.title}}</span></h5>
+    <h5 class="font-weight-bold">Short Description: <span class="font-weight-light">{{event.shortDescription}}</span></h5>
+    <h5 class="font-weight-bold">Long Description: <span class="font-weight-light">{{event.longDescription}}</span></h5>
+    <h5 class="font-weight-bold">Date Published: <span class="font-weight-light">{{event.publishedDate | date}}</span></h5>
+    <h5 class="font-weight-bold">Is Active: <span class="font-weight-light">{{isActive(event.isActive)}}</span></h5>
+    <h5 class="font-weight-bold">Date Created: <span class="font-weight-light">{{event.dateCreated | date}}</span></h5>
+</div>
+<br/>
+<div *ngIf = "isAdmin" class="text-center" >
+    <a class="btn btn-outline-info" routerLink="/event/{{eventId}}/edit" routerLinkActive="active" >Edit Event</a>
+</div>

@@ -1,0 +1,18 @@
+<h2 class="text-center">User Info</h2>
+<hr/>
+<div *ngIf="user" class="container text-center">
+    <div>
+        <h5 class="font-weight-bold">First Name: <span class="font-weight-light">{{user.firstName}}</span></h5>
+        <h5 class="font-weight-bold">Last Name: <span class="font-weight-light">{{user.lastName}}</span> </h5>
+        <h5 class="font-weight-bold">Email: <span class="font-weight-light">{{user.email}}</span></h5>
+        <h5 class="font-weight-bold">Mobile: <span class="font-weight-light">{{user.mobile}}</span></h5>
+        <h5 class="font-weight-bold">Username: <span class="font-weight-light">{{user.username}}</span></h5>
+    </div>
+    <br/>
+    <div>
+        <nav class="text-center inline">
+            <a class="btn btn-primary" routerLink="/user/{{user.id}}/edit" routerLinkActive="active" >Edit Info</a>&nbsp;&nbsp;
+            <a class="btn btn-primary" routerLink="/user/{{user.id}}/changePassword" routerLinkActive="active" >Change Password</a>
+        </nav>
+    </div>
+</div>

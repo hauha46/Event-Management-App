@@ -1,0 +1,88 @@
+<h2 class="text-center">Sign up</h2>
+<hr/>
+<div class="container">
+    <form (ngSubmit)="onSubmit()" [formGroup] = "userForm">
+        <fieldset>
+            <div class="row">
+                
+                <div class="form-group col">
+                    <label class="form-control-label">First Name <span class="lblError">*</span></label>
+                    <input required type="text" formControlName="firstName" name = "firstName" class="form-control "/>
+                </div>
+                <div class="form-group col">
+                    <label class="form-control-label">Last Name </label>
+                    <input required type="text" formControlName="lastName" name = "lastName" class="form-control "/>
+                </div>
+            </div>
+
+            <div class="alert alert-danger" *ngIf="userForm.get('firstName').hasError('required') && !userForm.get('firstName').pristine">
+                Please provide your First Name.
+            </div>
+            
+
+            <div class="form-group">
+                <label class="form-control-label">Username <span class="lblError">*</span></label>
+                <input required type="text" formControlName="username" (focusout)="checkUsernameAvailable()" name = "username" class="form-control "/>
+            </div>
+            <div>
+                <div class="alert alert-danger" role="alert" *ngIf="duplicateUsername && !userForm.get('username').hasError('required')">
+                    This username has been taken. Please try another username!
+                </div>
+                <div class="alert alert-danger" *ngIf="userForm.get('username').hasError('required') && !userForm.get('username').pristine">
+                    Please provide your Username.
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col">
+                    <label class="form-control-label" >Password <span class="lblError">*</span></label>
+                    <input required type="password" formControlName="password" name = "password" class="form-control "/>
+                </div>
+                <div class="form-group col">
+                    <label class="form-control-label">Verify Password <span class="lblError">*</span></label>
+                    <input required type="password" formControlName="dupPassword" (focusout)="verifyPassword()"  name = "repeated" class="form-control "/>
+                </div>
+            </div>
+                                   
+            <div>
+                <div class="alert alert-danger" *ngIf="userForm.get('password').hasError('required') && !userForm.get('password').pristine">
+                    Please provide your Password.
+                </div>
+                <div class="alert alert-danger" *ngIf="userForm.get('password').hasError('minlength') && !userForm.get('password').pristine">
+                    Password must be at least 6 characters. Please try again!
+                </div>
+            </div>
+            <div>
+                <div class="alert alert-danger" role="alert" *ngIf="passwordNotMatch">
+                    Passwords not match. Please try again!
+                </div>
+            </div>
+            
+    
+            
+            
+            
+            <div class="form-group">
+                <label class="form-control-label">Email <span class="lblError">*</span></label>
+                <input required type="email" formControlName="email" name = "email" class="form-control "/>
+            </div>
+            <div>
+                <div class="alert alert-danger" *ngIf="userForm.get('email').hasError('required') && !userForm.get('email').pristine">
+                    Please provide your Email.
+                </div>
+                <div class="alert alert-danger" *ngIf="userForm.get('email').hasError('email') && !userForm.get('email').pristine">
+                    Please check your Email again!
+                </div>
+            </div>
+            
+    
+            <div class="form-group">
+                <label class="form-control-label">Mobile</label>
+                <input required type="text" formControlName="mobile" name = "mobile" class="form-control "/>
+            </div>
+            
+            <div class="form-group text-center">
+                <button type="submit"  class="btn btn-primary btn-large">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</div>

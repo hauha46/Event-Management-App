@@ -1,0 +1,25 @@
+<h2 class="text-center">Login</h2>
+<hr/>
+<div class="container">
+    <form (ngSubmit)="onSubmit()" #loginForm="ngForm" class="form-signin">
+        <fieldset>
+            <div class="form-group">
+                <input required type="text" [(ngModel)]="credential.username" name = "username" class="form-control" placeholder="Username"/>
+            </div>
+    
+            <div class="form-group">
+                <input required type="password" [(ngModel)]="credential.password" name = "password" class="form-control" placeholder="Password"/>
+            </div>
+    
+            <ng-container *ngIf="credentialError">
+                <div class="alert alert-danger" role="alert">
+                    The provided credential is incorrect. Please try again!
+                </div>
+            </ng-container>
+    
+            <div class="form-group">
+                <button type="submit"  class="btn btn-primary btn-large btn-block">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</div>

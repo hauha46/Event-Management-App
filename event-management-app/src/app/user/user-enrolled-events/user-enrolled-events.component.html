@@ -1,0 +1,34 @@
+<h2 class="text-center">Enrolled Events</h2>
+<hr/>
+<div class="container">
+    <div class="row">
+         <div class="col-12">
+             <table class="table table-hover table-striped table-bordered">
+                 <thead class="thead-dark">
+                     <tr>
+                         <th class="text-center">Id</th>
+                         <th class="text-center">Title</th>
+                         <th class="text-center">Published Date</th>
+                         <th class="text-center">Created Date</th>
+                         <th class="text-center">Active</th>
+                         <th class="text-center">Action</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr *ngFor="let event of events">
+                         <td class="text-center">{{event.id}}</td>
+                         <td class="text-center">{{event.title}}</td>
+                         <td class="text-center">{{event.publishedDate | date}}</td>
+                         <td class="text-center">{{event.dateCreated | date}}</td>
+                         <td class="text-center">{{event.isActive}}</td>
+                         <td class="text-center">
+                             <a class="btn btn-info" routerLink="/events/{{event.id}}" routerLinkActive="active">View</a>&nbsp;&nbsp;
+                             <a *ngIf="isAdmin" class="btn btn-light" routerLink="/event/{{event.id}}/edit" routerLinkActive="active">Edit</a>&nbsp;&nbsp;
+                             <a *ngIf="isAuthenticated" class="btn btn-danger" (click)="removeEnrollEvent(event.id)" routerLinkActive="active">Remove</a>
+                         </td>
+                     </tr>
+                 </tbody>
+             </table>
+         </div>
+    </div>
+ </div>

@@ -1,0 +1,79 @@
+<h2 class="text-center">User List</h2>
+<hr/>
+<div class="container">
+    <div class="row justify-content-between">
+        <nav class="navbar navbar-light bg-light col-5">
+            <form class="form-inline" (ngSubmit)="onSearch()">
+              <input class="form-control mr-sm-2" type="text" placeholder="First Name" aria-label="Search" [(ngModel)] = "searchUser" [ngModelOptions]="{standalone: true}">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+    
+        <div class="dropdown col-2">
+            <button class="btn btn-outline-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                Item/Page
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" (click)="changeItemCount(5)">5</a>
+              <a class="dropdown-item" (click)="changeItemCount(10)">10</a>
+              <a class="dropdown-item" (click)="changeItemCount(15)">15</a>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+         <div class="col-12">
+             <table class="table table-hover table-striped table-bordered">
+                <caption>Total: {{totalUsers}} users. Page {{page}}/{{maxPage}}</caption>
+                 <thead class="thead-dark">
+                     <tr>
+                            <th class="text-center">Id</th>
+                            <th class="text-center">First Name</th>
+                            <th class="text-center">Last Name</th>
+                            <th class="text-center">Email</th>
+                            <th class="text-center">Mobile</th>
+                            <th class="text-center">Username</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr *ngFor="let user of users">
+                         <td class="text-center">{{user.id}}</td>
+                         <td class="text-center">{{user.firstName}}</td>
+                         <td class="text-center">{{user.lastName}}</td>
+                         <td class="text-center">{{user.email}}</td>
+                         <td class="text-center">{{user.mobile}}</td>
+                         <td class="text-center">{{user.username}}</td>
+                     </tr>
+                 </tbody>
+             </table>
+         </div>
+    </div>
+    <nav>
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled" *ngIf="disabledFirst()">
+                <a class="page-link" (click)="firstPage()" >First</a>
+            </li>
+            <li class="page-item disabled" *ngIf="disabledFirst()">
+                <a class="page-link" (click)="prevPage()">Previous</a>
+            </li>
+            <li class="page-item" *ngIf="!disabledFirst()">
+                <a class="page-link" (click)="firstPage()" >First</a>
+            </li>
+            <li class="page-item" *ngIf="!disabledFirst()">
+                <a class="page-link" (click)="prevPage()">Previous</a>
+            </li>
+            <li class="page-item disabled" *ngIf="disabledLast()" >
+                <a class="page-link" (click)="nextPage()">Next</a>
+            </li>
+            <li class="page-item disabled" *ngIf="disabledLast()">
+                <a class="page-link" (click)="lastPage()">Last</a>
+            </li>
+            <li class="page-item" *ngIf="!disabledLast()" >
+                <a class="page-link" (click)="nextPage()">Next</a>
+            </li>
+            <li class="page-item" *ngIf="!disabledLast()">
+                <a class="page-link" (click)="lastPage()">Last</a>
+            </li>
+        </ul>
+      </nav>
+ </div>
